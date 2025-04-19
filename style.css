@@ -38,6 +38,11 @@ header h1{
     width: 100%;
     flex-wrap: wrap;          
 }
+.set2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
 
 .photo {
     width: 40%;
@@ -46,7 +51,8 @@ header h1{
 
 }
 
-img {
+
+.img1 {
     width: 70%;              
     border-radius: 50px;      
 }
@@ -72,6 +78,31 @@ img {
     
     
 }
+nav{
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+nav a{
+    
+    color: #43694a;
+    font-size: 25px;
+    font-family: "微軟正黑體", sans-serif;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
