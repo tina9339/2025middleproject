@@ -15,7 +15,7 @@ div {
     unicode-bidi: isolate;
 }
 header{
-   background-image: url(photo/green1.png);
+   background-image: url(photo/green1.jpg);
    background-size: cover;
    height: 600px;
    display: block;
@@ -113,6 +113,55 @@ nav a{
     text-shadow: 0.05em 0.05em 0.1em rgb(133, 190, 136);
 }
 
+.experience{
+    background-image: url(photo/green5.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 1000px;
+    
+}
+.set4{
+    color: #28422d;
+    font-family: "微軟正黑體", sans-serif;
+    /*background-color: rgb(210, 228, 200);*/
+    padding: 20px; 
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: rgb(85, 122, 78);
+    text-shadow: 0.05em 0.05em 0.1em rgb(133, 190, 136);
+}
+
+h2{
+    color: #28422d;
+    font-family: "微軟正黑體", sans-serif;
+    font-size: 30px;
+}
+p{
+    color: #28422d;
+    font-family: "微軟正黑體", sans-serif;
+    font-size: 20px;
+}
+.moreinfor{
+    background-image: url(photo/green6.png);
+    background-size: cover;
+    text-align: left;
+    height: 500px;
+    
+}
+.more-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    height: 350px; 
+}
+
+.more1 {
+    width: 20%;
+    font-size: 25px;
+    color: #2a4730;
+    font-family: "微軟正黑體", sans-serif;
+}
 .skill-container {
     margin-bottom: 20px;
     text-align: center;
@@ -160,63 +209,84 @@ nav a{
     }
   }
 
-
-
-
-
-
-
-
-
-/*.information {
-    width: 100%;
-    max-width: 600px;
-    font-size: 20px;
-    border-collapse: collapse;               
-    font-family: "微軟正黑體", sans-serif;
-    color: #2a4730;
+  .card{
+    text-align: center;
+    /*padding: 20px;*/
+    width: 70%;
+    display: grid;
+    /*3x3 grid*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /*
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-columns: repeat(3,33%) ;
+    */
+    grid-gap: 10px;
+    grid-auto-flow:row;
+    margin-left: 15%;
     
-    margin-left: 30px;
-    line-height: 2;
-    
+
+
 }
+.ex1{
 
-.information .hi{
-    padding-bottom: 10px;
-    font-size: 25px;
-    font-weight: bolder;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    /*background-image: url(image/card_img.jpg);
+    background-size: cover;
+    */
    
 }
 
+.more2 {
+    width: 30%;
+}
+.set5{
+    text-align: center;
+}
+.more3 {
+    width: 30%;
+    font-size: 23px;
+    color: #2a4730;
+    font-family: "微軟正黑體", sans-serif;
+}
+.scroll {
+    overflow: hidden;
+    width: 300px;
+    border-radius: 15px;
+}
 
-.information table {
+.scroll2 {
+    display: flex;
+    animation: scroll-left 15s linear infinite;
+    width: 550px;
+    margin-right: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    background-color: white; 
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+  
+.green2{
+    background-color: rgb(167, 224, 181);
     width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-    
-}
-
-.information th, .information td {
-    
+    height: 40px;
+    text-align: center;
+    color: #2a4730;
+    font-family: "微軟正黑體", sans-serif;
     padding: 5px;
-    word-break: break-word;
-}
 
-.information .hi {
-    padding-bottom: 10px;
-    font-size: 25px;
-    font-weight: bolder;
-    
     
 }
 
-.information .hi1 {
-    width: 5%;
-    text-align: right;
-}
-.information .hi2 {
-    width: 95%;
-    text-align: left;
-}
-*/
+
 
