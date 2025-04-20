@@ -26,8 +26,8 @@ header h1{
     font-family: 微軟正黑體;
     font-size: 80px;
     letter-spacing: 5px;
-    color: rgb(189, 219, 183);
-    text-shadow: 0.05em 0.05em 0.1em rgb(80, 121, 87);
+    color: rgb(85, 122, 78);
+    text-shadow: 0.05em 0.05em 0.1em rgb(133, 190, 136);
     padding-left: 50px;
     margin-top: 20px;
 }
@@ -79,7 +79,7 @@ header h1{
     
 }
 nav{
-    margin-top: 50px;
+    margin-top: 30px;
 
     text-align: center;
 }
@@ -94,9 +94,71 @@ nav a{
 
 }
 
+.ability{
+    /*background-color: rgb(210, 228, 200);*/
+    background-image: url(photo/green4.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    
+}
+.set3{
+    color: #28422d;
+    font-family: "微軟正黑體", sans-serif;
+    /*background-color: rgb(210, 228, 200);*/
+    padding: 20px; 
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: rgb(85, 122, 78);
+    text-shadow: 0.05em 0.05em 0.1em rgb(133, 190, 136);
+}
 
+.skill-container {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+  }
 
+  .label {
+    font-weight: bold;
+    color: #3a533d;
+    font-size: 25px;
+  }
 
+  .bar {
+    position: relative;
+    background-color: #bed3bb;
+    border: 2px solid #6c996a;
+    border-radius: 6px;
+    height: 24px;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto; 
+  }
+
+  .bar-fill {
+    height: 100%;
+    background-color: #477e4e;
+    width: 0;
+    animation: fillBar 2s ease forwards;
+  }
+
+  .percentage {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #444;
+  }
+
+  @keyframes fillBar {
+    to {
+      width: var(--percent);
+    }
+  }
 
 
 
